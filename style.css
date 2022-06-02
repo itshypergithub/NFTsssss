@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.huge{
+    font-size: 10rem;
+    font-weight: bold;
+    color: blue;
+}
+.container{
+    width: 100;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(5166950.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    letter-spacing: 1.2px;
+
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #DB00FF;
+    display: block;
+    margin: auto;
+transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+}
+.col1{
+    margin-bottom: 100px;
+}
+
+span{
+    font-weight: 600;
+}
+
+h1{
+    background: rgb(0,115,255);
+    background: linear-gradient(90deg, rgb(1, 96, 212) 0%, rgba(219,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 3.7rem;
+    
+    
+    
+    
+}
+
+
+a{
+    
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #fff;
+}
+p{
+    font-weight: lighter;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 15px;
+    margin-left: 5px;
+
+
+}
+button{
+    cursor: pointer;
+    width: 180px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background: rgb(0,115,255);
+    background: linear-gradient(90deg, rgba(0,115,255,1) 0%, rgba(219,0,255,1) 100%);
+
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    padding: 10px 0;
+    margin-left: 5px;
+
+}
+
+button:hover{
+    background: rgb(0,115,255);
+    background: linear-gradient(90deg, rgb(0, 77, 172) 0%, rgb(135, 0, 156) 100%);
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 35px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(Rhi.jpg);
+}
+.card2{
+    background-image: url(Ele.jpg);
+}
+.card3{
+    background-image: url(TI.jpg);
+}
+.card4{
+    background-image: url(Wolfy.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+
+}
